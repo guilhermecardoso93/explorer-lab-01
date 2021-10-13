@@ -1,0 +1,117 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+.principal {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin: auto auto;
+  margin-top: 7.5rem;
+  border-radius: 5px;
+  padding: 0 2rem;
+  border: 2px solid #e9ecf0;
+  color: #e9ecf0;
+  width: 40.9rem;
+
+  .icon{
+    padding-right:0.5rem;
+  }
+}
+
+.waves {
+  position: absolute;
+  top: 5.4rem;
+  z-index: -42;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  width: 45rem;
+  max-height: 168px;
+}
+
+.wave1 {
+  animation: moveWave1 15s 0.5s ease-in-out infinite alternate;
+}
+@keyframes moveWave1 {
+  from {
+    transform: translateX(2000px);
+  }
+}
+.wave2 {
+  animation: moveWave2 13s ease-in-out infinite alternate-reverse;
+}
+@keyframes moveWave2 {
+  from {
+    transform: translateX(-1800px);
+  }
+}
+.wave3 {
+  animation: moveWave3 8s ease-in-out infinite alternate;
+}
+@keyframes moveWave3 {
+  from {
+    transform: translateX(1600px);
+  }
+}
+.wave4 {
+  animation: moveWave4 7s ease-in-out infinite alternate-reverse;
+}
+@keyframes moveWave4 {
+  from {
+    transform: translateX(-1400px);
+  }
+}
+
+.wave5 {
+  animation: moveWave1 10s 0.7s ease-in-out infinite alternate;
+}
+@keyframes moveWave1 {
+  from {
+    transform: translateX(-2000px);
+  }
+}
+.wave6 {
+  animation: moveWave2 13s ease-in-out infinite alternate-reverse;
+}
+@keyframes moveWave2 {
+  from {
+    transform: translateX(1800px);
+  }
+}
+.wave7 {
+  animation: moveWave3 7s ease-in-out infinite alternate;
+}
+@keyframes moveWave3 {
+  from {
+    transform: translateX(-1650px);
+  }
+}
+.wave8 {
+  animation: moveWave4 7s ease-in-out infinite alternate-reverse;
+}
+@keyframes moveWave4 {
+  from {
+    transform: translateX(1500px);
+  }
+}
+
+.perfil {
+  display: flex;
+}
+
+.dados {
+  padding: 1.5rem;
+  padding-top: 3rem;
+  line-height: 1.8;
+}
+
+#fotoPerfil {
+  border-radius: 80%;
+  border: 6px double #e9ecf0;
+  max-width: 200px;
+  max-height: 200px;
+  margin: 1rem;
+}

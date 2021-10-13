@@ -1,0 +1,37 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+.contatoInfo {
+  color: #e9ecf0;
+  margin: auto auto;
+  border: 2px solid #e9ecf0;
+  color: #e9ecf0;
+  width: 40.9rem;
+  border-radius: 5px;
+  padding:3rem;
+ align-items: center;
+  padding: 0.5rem;
+  line-height: 1.5;
+  height:25rem;
+
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+  color:#00a8cc;
+  padding:2rem 0;
+}
+.contatoInfo-titulo, .contatoInfo-dados{
+ 
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin:auto auto;
+  margin-bottom: 2rem;
+}
+}
+
+.icon{
+  padding-right:0.4rem;
+}

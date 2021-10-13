@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 16px Arial, Helvetica, sans-serif;
+  color: #141212;
+  //background-image: linear-gradient(55deg, #e3fdfd, #cbf1f5, #a6e3e9, #71c9ce);
+  background-image: linear-gradient(55deg, #101111, #08090a, #0f0f0f, #00A8CC);
+  background-size: 300% 300%;
+  animation: colors 15s ease infinite;
+}
+@keyframes colors {
+  0% {
+    background-position: 5% 50%;
+  } 
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+

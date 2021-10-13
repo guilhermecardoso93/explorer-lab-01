@@ -1,0 +1,48 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+.curriculo {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 45.9rem;
+
+  margin: auto auto;
+  margin-top: 4.5rem;
+  padding: 2rem 2rem;
+
+  border-radius: 5px;
+  border: 2px solid #e9ecf0;
+  color: #e9ecf0;
+
+  h2 {
+    color: #00a8cc;
+    font-size: 2rem;
+    margin: auto 8rem;
+  }
+
+  p {
+    padding: 1rem 0;
+  }
+
+  strong {
+    color: #00a8cc;
+  }
+
+  ul{
+    list-style: none;
+  }
+  .objetivo {
+    font-size: 1.5rem;
+  }
+  .cargos {
+    padding: 1rem;
+
+    li{
+      padding:0 1rem;
+    }
+  }
+  .atividades {
+    padding: 0 2rem;
+  }
+}

@@ -1,0 +1,57 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+.aboutme {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin:auto auto;
+  margin-top: 2.7rem;
+  border-radius: 5px;
+  padding: 2rem 2rem;
+  border: 2px solid #e9ecf0;
+  color: #e9ecf0;
+  width: 50.9rem;
+  line-height:1.5rem;
+
+}
+
+.about {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  line-height:2.5rem;
+
+  background: #00a8cc;
+  padding: 4rem;
+  border-radius: 5px;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+.me {
+  display: grid(1fr 1fr);
+}
+p {
+  color: #e9ecf0;
+}
+
+.footerMe{
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto;
+  color: #e9ecf0;
+}
+.footerMeIcon{
+  padding:0 1rem;
+}

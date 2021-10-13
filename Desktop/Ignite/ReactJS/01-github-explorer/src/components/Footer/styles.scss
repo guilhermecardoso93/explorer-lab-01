@@ -1,0 +1,43 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+footer {
+  background: linear-gradient(236.85deg,#142850 27.26%,#00a8cc 161.03%, #111a24, #00a8cc);
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1rem;
+  margin-top:10rem;
+  padding:0.2rem;
+
+  position:fixed bottom;
+  bottom:0;
+  width:99.5%;
+
+  animation: colors 15s ease infinite;
+}
+@keyframes colors {
+  0% {
+    background-position: 5% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+p {
+  color: #e9ecf0;
+  display: flex;
+  margin: 0 ;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+
+  .iconFooter{
+    padding: 0 2rem
+  }
+}
+
