@@ -1,0 +1,346 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  background-image: url('./assets/images/bodyback.png');
+  background-size: 6rem;
+  background-color: #ffffff;
+}
+
+main {
+  background-color: aliceblue;
+  border-radius: 20px;
+  border: double 10px #6e6d6d;
+  padding: 1rem;
+
+  width: 85%;
+  height: 60rem;
+
+  overflow: hidden;
+}
+  
+
+.start button{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  height: 4rem;
+
+  bottom: 30rem;
+  left:60rem;
+
+  color: #f5f3f0;
+  text-transform: uppercase;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 700;
+  font-size: 1.7rem;
+
+  background-color: red;
+  border-radius: 5px;
+
+  z-index: 4;
+}
+
+.heartbeat:hover {
+	-webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+	        animation: heartbeat 1.5s ease-in-out infinite both;
+}
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+
+
+.top {
+  margin-top: 2rem;
+  margin-bottom: 12rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 1rem;
+  gap: 2rem;
+}
+
+#canvas{
+   width: 22rem;
+}
+
+#logo-overwatch {
+  display: flex;
+  position: absolute;
+  z-index: 2;
+  top: -3rem;
+  left: 2rem;
+  width: 15rem;
+  margin: 3rem;
+}
+
+#logo-flappy {
+  display: flex;
+  position: absolute;
+  z-index: 2;
+  top: 2rem;
+  margin-left: 9rem;
+  /*
+  
+  width: 15rem;
+  margin: 3rem;*/
+}
+
+.angry-animate {
+  -webkit-animation: rotate 10s ease -1s infinite normal;
+  -moz-animation: rotate 10s ease -1s infinite normal;
+  -ms-animation: rotate 10s ease -1s infinite normal;
+  animation: rotate 10s ease -1s infinite normal;
+}
+
+@-webkit-keyframes rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.game {
+  padding: 1rem;
+  border-radius: 10px;
+  margin-right: 5rem;
+  position: relative;
+  z-index: 2;
+
+  -webkit-box-shadow: 0px 0px 10px 10px #ff9500;
+  -moz-box-shadow: 0px 0px 10px 10px #ff9500;
+  box-shadow: 0px 0px 10px 10px #ff9500;
+}
+
+.color-change-4x {
+  -webkit-animation: color-change-4x 6s linear infinite alternate both;
+  animation: color-change-4x 6s linear infinite alternate both;
+}
+
+@-webkit-keyframes color-change-4x {
+  0% {
+    background: #f9ffff;
+  }
+
+  33.3333% {
+    background: #f5f3f0;
+  }
+
+  66.666% {
+    background: #b9b3b3;
+  }
+
+  100% {
+    background: #fffffd;
+  }
+}
+
+@keyframes color-change-4x {
+  0% {
+    background: #f9ffff;
+  }
+
+  33.3333% {
+    background: #f5f3f0;
+  }
+
+  66.666% {
+    background: #b9b3b3;
+  }
+
+  100% {
+    background: #fffffd;
+  }
+}
+
+#mercy4 {
+  position: relative;
+  z-index: 1;
+  top: -38rem;
+
+  width: 70rem;
+
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+@media only screen and (min-width: 726px) {
+  #mercy4 {
+    top: -48rem;
+    left: 40rem;
+  
+    width: 80rem;
+  }
+  
+}
+
+
+@media only screen and (max-width: 1025px) {
+  #mercy4 {
+    top: -48rem;
+    left: 10rem;
+  
+    width:80rem;
+  }
+  
+}
+
+.fly:hover {
+  -webkit-animation: jump 5s ease-in-out 0s infinite normal;
+  -moz-animation: jump 5s ease-in-out 0s infinite normal;
+  -ms-animation: jump 5s ease-in-out 0s infinite normal;
+  animation: jump 5s ease-in-out 0s infinite normal;
+
+  -webkit-filter: drop-shadow(5px 5px 5px rgb(221, 194, 41));
+  filter: drop-shadow(5px 5px 5px rgb(221, 158, 23));
+}
+
+@-webkit-keyframes jump {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  20% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  50% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+
+  80% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+
+  20% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-30px);
+  }
+
+  50% {
+    transform: translateY(0);
+  }
+
+  60% {
+    transform: translateY(-15px);
+  }
+
+  80% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
